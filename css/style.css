@@ -1,0 +1,12 @@
+.cuadroRojo{
+    background-color: red;
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+}
+.cuadroAzul{
+    background-color: blue;
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+}
