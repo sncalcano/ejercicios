@@ -1,19 +1,11 @@
 {
-  "name": "calculadora",
+  "name": "ejercicios",
   "version": "1.0.0",
-  "description": "",
+  "description": "hola xd",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sncalcano/calculadora.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sncalcano/calculadora/issues"
-  },
-  "homepage": "https://github.com/sncalcano/calculadora#readme"
+  "license": "ISC"
 }

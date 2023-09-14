@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/style.css" ></link>
+</head>
+
+<body>
+    <div class="calculadora">
+        <input type="text" class="pantalla" id="display" readonly>
+
+
+        </input>
+        <div class="teclado">
+            <div onclick="agregarNumero(7)" class="botones">
+                7
+    
+            </div>
+            <div onclick="agregarNumero(8)" class="botones">
+                8
+            </div>
+            <div onclick="agregarNumero(9)" class="botones">
+                9
+            </div>
+            <div onclick="agregarNumero(4)" class="botones">
+                 4
+            </div>
+            <div onclick="agregarNumero(5)" class="botones">
+                5
+            </div>
+            <div onclick="agregarNumero(6)" class="botones">
+                6
+            </div>
+            <div onclick="agregarNumero(1)" class="botones">
+                1
+            </div>
+            <div onclick="agregarNumero(2)" class="botones">
+                2
+            </div>
+            <div onclick="agregarNumero(3)" class="botones">
+                3
+            </div>
+            <div onclick="borrarTodo()" class="botones">
+                c
+            </div>
+            <div onclick="agregarNumero(0)" class="botones">
+                0
+            </div>
+            <div onclick="guardarOperacion('+')" class="botones">
+                +
+            </div>
+
+        </div>
+        <div class="resultado">
+            <button onclick="realizarOperacion()" class="boton-resultado">
+                =
+            </button>
+        </div>
+    </div>
+</body>
+
+<script src="../javascript/scripts.js"></script>
+</html>
